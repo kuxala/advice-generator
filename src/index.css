@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--Dark-Blue, #1F2632);
+  color: #fff;
+  font-family: Manrope;
+}
+.container{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 332px;
+  padding: 47px 48px 72px 48px;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 15%;
+  border-radius: 15px;
+  background: var(--Dark-Grayish-Blue, #323a49);
+}
